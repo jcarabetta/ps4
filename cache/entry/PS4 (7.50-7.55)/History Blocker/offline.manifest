@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/blob.js
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/index.html
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/int64.js
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/jb.js
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/netcat.js
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/payload.js
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/ps4.js
+../../../../exploits/PS4%20(7.50-7.55)/History%20Blocker/utils.js
+
+NETWORK:
+*
+
+# Hash: 74A0406DF74B8EEE65ECF9549166A2DB

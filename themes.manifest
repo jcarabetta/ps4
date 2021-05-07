@@ -1,0 +1,36 @@
+CACHE MANIFEST
+
+CACHE:
+./
+./index.html
+./blank.html
+./api/theme_settings.json
+./api/menu.json
+./themes/error.html
+./themes/Default/bootstrap.bundle.min.js
+./themes/Default/bootstrap.min.css
+./themes/Default/common.js
+./themes/Default/default.css
+./themes/Default/default.js
+./themes/Default/favicon.ico
+./themes/Default/index.html
+./themes/Default/jquery-3.3.1.min.js
+./themes/Default/promise-polyfill.min.js
+./themes/Default/ps4-updatefeature.html
+./themes/Default/robots.txt
+./themes/Default/rpi.html
+./themes/Default/rpi.js
+./themes/Default/sha.js
+./themes/Default/sitemap.xml
+./themes/Default/images/0.png
+./themes/Default/images/1.png
+./themes/Default/images/2.png
+./themes/Default/images/3.png
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
+
+# Hash: 69BE35874F51AD2C3976F1813181BFB4

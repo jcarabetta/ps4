@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/blob.js
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/index.html
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/int64.js
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/jb.js
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/netcat.js
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/payload.js
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/ps4.js
+../../../../exploits/PS4%20(7.50-7.55)/ToDex/utils.js
+
+NETWORK:
+*
+
+# Hash: 1D369876A8D6FBAA22D5FAD5E8CB1795

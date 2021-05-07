@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/7.5x/Mira/blob.js
+../../../../exploits/7.5x/Mira/index.html
+../../../../exploits/7.5x/Mira/int64.js
+../../../../exploits/7.5x/Mira/jb.js
+../../../../exploits/7.5x/Mira/jb.min.js
+../../../../exploits/7.5x/Mira/loader-750.js
+../../../../exploits/7.5x/Mira/loader-751.js
+../../../../exploits/7.5x/Mira/loader-755.js
+../../../../exploits/7.5x/Mira/mira-750.js
+../../../../exploits/7.5x/Mira/mira-751.js
+../../../../exploits/7.5x/Mira/mira-755.js
+../../../../exploits/7.5x/Mira/netcat.js
+../../../../exploits/7.5x/Mira/netcat.min.js
+../../../../exploits/7.5x/Mira/ps4.js
+../../../../exploits/7.5x/Mira/utils.js
+
+NETWORK:
+*
+
+# Hash: 91D3CC3F118019A935926D87D0910506

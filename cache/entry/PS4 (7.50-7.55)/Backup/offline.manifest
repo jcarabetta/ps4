@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/PS4%20(7.50-7.55)/Backup/blob.js
+../../../../exploits/PS4%20(7.50-7.55)/Backup/index.html
+../../../../exploits/PS4%20(7.50-7.55)/Backup/int64.js
+../../../../exploits/PS4%20(7.50-7.55)/Backup/jb.js
+../../../../exploits/PS4%20(7.50-7.55)/Backup/netcat.js
+../../../../exploits/PS4%20(7.50-7.55)/Backup/payload.js
+../../../../exploits/PS4%20(7.50-7.55)/Backup/ps4.js
+../../../../exploits/PS4%20(7.50-7.55)/Backup/utils.js
+
+NETWORK:
+*
+
+# Hash: 207B0EFF66071886718A822654A106BA

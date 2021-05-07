@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/blob.js
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/index.html
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/int64.js
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/jb.js
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/netcat.js
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/payload.js
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/ps4.js
+../../../../exploits/PS4%20(7.50-7.55)/App2USB/utils.js
+
+NETWORK:
+*
+
+# Hash: A25F3AE2E1B056A74493D2F325E34410

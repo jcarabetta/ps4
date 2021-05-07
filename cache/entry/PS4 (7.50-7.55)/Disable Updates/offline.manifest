@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/blob.js
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/index.html
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/int64.js
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/jb.js
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/jb.min.js
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/netcat.js
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/payload.js
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/ps4.js
+../../../../exploits/PS4%20(7.50-7.55)/Disable%20Updates/utils.js
+
+NETWORK:
+*
+
+# Hash: 0567CAB78AD74654B9DD2A883038B3F0

@@ -1,0 +1,21 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/7.5x/Goldhen/blob.js
+../../../../exploits/7.5x/Goldhen/goldhen-750.js
+../../../../exploits/7.5x/Goldhen/index.html
+../../../../exploits/7.5x/Goldhen/int64.js
+../../../../exploits/7.5x/Goldhen/jb.js
+../../../../exploits/7.5x/Goldhen/jb.min.js
+../../../../exploits/7.5x/Goldhen/loader-750.js
+../../../../exploits/7.5x/Goldhen/loader-751.js
+../../../../exploits/7.5x/Goldhen/loader-755.js
+../../../../exploits/7.5x/Goldhen/netcat.js
+../../../../exploits/7.5x/Goldhen/netcat.min.js
+../../../../exploits/7.5x/Goldhen/ps4.js
+../../../../exploits/7.5x/Goldhen/utils.js
+
+NETWORK:
+*
+
+# Hash: 83679AA420EB0684EAC8C47AC150C6F2

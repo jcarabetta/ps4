@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/PS4%20(7.50-7.55)/FTP/blob.js
+../../../../exploits/PS4%20(7.50-7.55)/FTP/index.html
+../../../../exploits/PS4%20(7.50-7.55)/FTP/int64.js
+../../../../exploits/PS4%20(7.50-7.55)/FTP/jb.js
+../../../../exploits/PS4%20(7.50-7.55)/FTP/netcat.js
+../../../../exploits/PS4%20(7.50-7.55)/FTP/payload.js
+../../../../exploits/PS4%20(7.50-7.55)/FTP/ps4.js
+../../../../exploits/PS4%20(7.50-7.55)/FTP/utils.js
+
+NETWORK:
+*
+
+# Hash: 1322314A2E46C932DE65ACC66D8A1D46

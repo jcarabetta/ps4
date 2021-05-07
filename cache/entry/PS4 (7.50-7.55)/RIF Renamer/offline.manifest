@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+CACHE:
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/blob.js
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/index.html
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/int64.js
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/jb.js
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/netcat.js
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/payload.js
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/ps4.js
+../../../../exploits/PS4%20(7.50-7.55)/RIF%20Renamer/utils.js
+
+NETWORK:
+*
+
+# Hash: 66C7527B4CFB550DE327E089527FDEBA
