@@ -1,1 +1,78 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>Theme Loader</title></head><body><script>"use strict";window.addEventListener("load",function(){var a=new Date;a.setTime(a.getTime()+3153600000000);var b=a.toUTCString();2!=="; ".concat(document.cookie).split("; theme=").length&&(document.cookie="theme=Default; expires=".concat(b,"; domain=").concat(window.location.hostname,"; path=").concat(window.location.pathname,";"));var c=new XMLHttpRequest;c.open("GET","./themes/".concat("; ".concat(document.cookie).split("; theme=").pop().split(";").shift(),"/index.html"),!0),c.onload=function(){200<=c.status&&400>c.status?(window.history.replaceState({location:decodeURIComponent(window.location.hash.substr(1)),modal:!1},null,window.location.hash?window.location.hash:" "),document.open(),document.write(c.responseText),document.close()):"Default"==="; ".concat(document.cookie).split("; theme=").pop().split(";").shift()?alert("Error retrieving default theme data. Check your setup."):(document.cookie="theme=Default; expires=".concat(b,"; domain=").concat(window.location.hostname,"; path=").concat(window.location.pathname,";"),navigator.onLine?alert("Error retrieving theme data, resetting theme to default and reloading."):alert("Error retrieving theme data, you are currently offline, it is likely you switched to a theme that you have yet to use while online (So it is not cached). Resetting theme to default and reloading."),window.location.reload())},c.onerror=function(){"Default"==="; ".concat(document.cookie).split("; theme=").pop().split(";").shift()?alert("Error retrieving default theme data. Check your setup."):(document.cookie="theme=Default; expires=".concat(b,"; domain=").concat(window.location.hostname,"; path=").concat(window.location.pathname,";"),navigator.onLine?alert("Error retrieving theme data, resetting theme to default and reloading."):alert("Error retrieving theme data, you are currently offline, it is likely you switched to a theme that you have yet to use while online (So it is not cached). Resetting theme to default and reloading."),window.location.reload())},c.send()});</script></body></html>
+
+<!DOCTYPE html>
+<html manifest="theme.manifest">
+<head>
+<meta charset="utf-8">
+<title>*</title>
+<link rel="stylesheet" href="/themes/default/style.css">
+<script src="/themes/default/script.js"></script>
+<script>
+var data = JSON.parse('{"firmwares": ["7.5x", "PS4 (7.50-7.55)", "[Cache All]"], "7.5x": ["Goldhen", "Goldhenv3b7", "Mira", "[Back]", "[Cache]"], "PS4 (7.50-7.55)": ["App Dumper", "App2USB", "Backup", "Bin Loader", "Disable ASLR", "Disable Updates", "Enable Updates", "FTP", "History Blocker", "Kernel Dumper", "Mira", "Module Dumper", "RIF Renamer", "Restore", "ToDex", "[Back]", "[Cache]"], "Host_Version": "0.4.6"}');
+var exploitBase = "/exploits/";
+
+var firmwares = getFirmwares();
+
+window.onload = function() {
+  if(window.location.hash) {
+    firmwareSelected();
+  } else {
+    resetPage();
+  }
+}
+
+window.document.addEventListener("keyup", function(event) {
+  if (event.keyCode === 27) {
+    document.getElementById("back").click();
+  }
+});
+
+window.applicationCache.onupdateready = function(n) {
+  window.location.reload(true);
+}
+</script>
+</head>
+<body onhashchange="firmwareSelected()">
+<div id="overlay">
+<div id="barText">Downloading Cache...</div>
+<div id="barBack">
+<div id="barLoad"></div>
+</div>
+</div>
+<div id="wrapper">
+<div id="contentWrapper">
+<div id="contentHeader">
+<div><h1 id="title">*</h1><a href="/themes/default/about.html" class="about">About</a></div>
+</div>
+<div id="content">
+<div id="contentBody">
+<h2 id="header">*</h2>
+<div id="buttons"></div>
+</div>
+</div>
+</div>
+</div>
+<iframe id="ifr"></iframe>
+</body>
+</html>
+<!--
+Copyright (c) 2017-2018 Al Azif, https://github.com/Al-Azif/ps4-exploit-host
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
